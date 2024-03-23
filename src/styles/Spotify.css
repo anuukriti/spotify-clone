@@ -1,0 +1,17 @@
+.spotify{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* background-color: rgb(7, 35, 7); */
+  background: url(https://img.freepik.com/free-vector/musical-notes-frame-with-text-space_1017-32857.jpg?t=st=1710656565~exp=1710660165~hmac=9ece4a6ea1d15595ec4ee4538616e0d3f065705580ba7c11bedfe097c9f3bbb7&w=1380) no-repeat;
+  background-size: cover;
+  z-index: -1;
+}

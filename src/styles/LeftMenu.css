@@ -1,0 +1,89 @@
+.leftmenu{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 93vh;
+    /* min-height: 100vh; */
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    padding: 10px 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border: 1px solid black;
+    margin: 9px;
+    border-radius: 20px;
+    z-index: 1;
+    color: aliceblue;
+}
+
+.logoContainer{
+    /* border: 1px solid red; */
+    flex: 1;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 10px;
+
+}
+
+.content{
+    margin-bottom: 10px;
+    /* border: 1px solid red; */
+    border-top: 1px solid #848484;
+    flex: 3;
+}
+
+.playlist_section{
+    border-top: 1px solid #848484;
+    margin-bottom: 10px;
+    /* border: 1px solid red; */
+    flex: 5;
+}
+
+.currentTrackSection{
+    border-top: 1px solid #848484;
+    /* border: 1px solid red; */
+    flex: 1;
+}
+.content h4{
+    text-transform: uppercase;
+    margin: 5px;
+    padding: 5px;
+    font-size: 17px;
+}
+
+.content li{
+    display: flex;
+    /* align-items: center; */
+    font-size: 16px;
+    cursor: pointer;
+    color: #848484;
+    list-style: none;
+    padding: 5px;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+    /* background-color: black; */
+}
+
+.content li:hover{
+    color: f1f1f1;
+    transition: 0.3s ease-in-out;
+
+}
+
+.content ul{
+    padding-left: 10px;
+}
+
+.content i{
+    padding-right: 20px;
+}
+
+
+.logoContainer > i{
+    font-size: 20px;
+}
+
+

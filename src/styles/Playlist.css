@@ -1,0 +1,58 @@
+.menuPlaylist{
+    width: 200px;
+    /* border: 1px solid red; */
+    padding-top: 10px;
+    margin-top: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 250px;
+}
+
+.menuPlaylist > li{
+    cursor: pointer;
+}
+
+.playlist h5{
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 17px;
+}
+
+.playlist ul{
+    /* width: 120px; */
+    list-style: none;
+    padding-left: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    
+}
+
+.playlist li{
+    /* width: 150px; */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: flex;
+    /* align-items: center; */
+    font-size: 16px;
+    cursor: pointer;
+    color: #848484;
+    list-style: none;
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+    
+    /* padding: 5px; */
+    /* margin-top: 15px; */
+    /* margin-bottom: 10px; */
+    /* background-color: black; */
+}
+
+.playlist li:hover{
+    color: f1f1f1;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}

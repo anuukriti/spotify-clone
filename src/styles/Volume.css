@@ -1,0 +1,12 @@
+.volumeSection{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.volumeSection > input{
+    width: 10rem;
+    border-radius: 2rem;
+    height: 0.3rem;
+    
+}
